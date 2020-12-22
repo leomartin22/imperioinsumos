@@ -4,13 +4,17 @@ include 'vistas/menunav.php';
 ?>
  <!-- reglas CSS para formulario !-->
    <style type="text/css">
-.form-consulta {max-width: 100%; background: #eee; margin-left: 35% ;padding: 25px; font-family: 'Source Sans Pro', sans-serif;}
+.form-consulta {max-width: 100%; background: #eee; margin-left: 15% ;padding: 25px; font-family: 'Source Sans Pro', sans-serif;}
 .campo-form {width:100%; eight:36px; margin:2px 0 6px; padding-left:6px; box-sizing: border-box; border-radius:3px; border:0; font-family: 'Source Sans Pro', sans-serif; font-size:1em;}
 label span {color: #f00}
-textarea {min-height: 150px!important;}
+textarea {min-height: 150px!important; min-width: 300px;}
 .btn-form {display: inline-block; border:0; background: #000; height: 46px; line-height: 46px; padding: 0 20px; border-radius: 6px; color:#fff; text-decoration: none; text-transform: uppercase; letter-spacing: 1px}
 .btn-form:hover {background: #444;}
+
 </style>
+
+
+
 
 
 
@@ -42,9 +46,12 @@ textarea {min-height: 150px!important;}
 
 <!-- formulario -->
         </div>
+	
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13361.555461335294!2d-64.35053842708739!3d-33.15141655268378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1608670045951!5m2!1ses-419!2sar" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
+  	
 </div>
 
-       
+ 
 
       </div>
       <!-- /.col-lg-9 -->
@@ -61,13 +68,10 @@ textarea {min-height: 150px!important;}
 
 
 
-    
-  
+
+
 	<body>
 
-
-	
-		
 
 <!--********************INICIO PIE DE PAGINA************************************-->
 	<?php 

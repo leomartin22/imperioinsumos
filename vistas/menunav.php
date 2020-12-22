@@ -1,3 +1,50 @@
+<!--estilos para bar redes sociales-->
+<style>
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+</style>
+
 <body>
 
   <!-- Navigation -->
@@ -17,9 +64,7 @@
           <li class="nav-item">
             <a class="nav-link" href="quienessomos.php">Quienes Somos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
-          </li>
+          
           <li class="nav-item">
               <a class="nav-link" href="contacto.php">Contacto</a>
           </li>
@@ -52,3 +97,27 @@
         </div>
 
       </div>
+
+
+<!--inicio codigo bar redessociales-->
+      <div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="imagenes/facebook-circle.png" width="32" height="32">
+            <p><a href="https://www.facebook.com/programacionnet" target="_blank">Danos Like en<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="imagenes/twitter-circle.png" width="32" height="32">
+            <p><a href="https://twitter.com" target="_blank">Siguenos en<br>Twitter</a></p>
+        </li>
+        <li>
+            <img src="imagenes/gplus-circle.png" width="32" height="32">
+            <p><a href="https://plus.google.com" target="_blank">Siguenos en<br>Google+</a></p>
+        </li>
+        <li>
+            <img src="imagenes/instangram-circle.png" width="32" height="32">
+            <p><a href="https://www.instangram.com" target="_blank">Siguenos en<br>Instangram</a></p>
+        </li>
+       
+    </ul>
+</div>
